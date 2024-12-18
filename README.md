@@ -1,6 +1,7 @@
 🎵 Simple Search Engine for Songs
 
 A Flask-based Search Engine that allows users to search for songs using lyrics snippets! This project demonstrates how to implement a basic text search functionality with TF-IDF Vectorization and Cosine Similarity for ranking results.
+
 🚀 Features
 
     🔍 Search Functionality: Enter a phrase or a snippet of lyrics to find matching songs.
