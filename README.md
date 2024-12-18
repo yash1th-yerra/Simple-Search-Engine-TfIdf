@@ -56,7 +56,7 @@ Visit http://127.0.0.1:5000 in your browser to start searching!
     Implement advanced ranking algorithms for more accurate results.
     Enhance the UI with more modern styles and animations.
 
-- Live Demo : https://simple-search-engine-tfidf.onrender.com/search
+- Live Demo : https://simple-search-engine-tfidf.onrender.com/
 
 🤝 Contributions
 
