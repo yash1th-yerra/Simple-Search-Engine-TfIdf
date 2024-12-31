@@ -12,17 +12,17 @@ A Flask-based Search Engine that allows users to search for songs using lyrics s
 
 🛠️ Technologies Used
 
-    Backend: Flask (Python)
-    Text Processing: Scikit-learn (TF-IDF and Cosine Similarity)
-    Frontend: HTML5, CSS3
-    Deployment: Render / Railway / Heroku
+    - Backend: Flask (Python)
+    - Text Processing: Scikit-learn (TF-IDF and Cosine Similarity)
+    - Frontend: HTML5, CSS3
+    - Deployment: Render 
 
 📝 How It Works
 
-    The dataset (songdata.csv) is loaded and preprocessed.
-    Lyrics are transformed into vectors using TF-IDF.
-    User queries are vectorized and compared with the dataset using Cosine Similarity.
-    Results are ranked by relevance and displayed to the user.
+    - The dataset (songdata.csv) is loaded and preprocessed.
+    - Lyrics are transformed into vectors using TF-IDF.
+    - User queries are vectorized and compared with the dataset using Cosine Similarity.
+    - Results are ranked by relevance and displayed to the user.
 
 📂 Project Structure
 
@@ -52,18 +52,15 @@ pip install -r requirements.txt
 python app.py
 
 Visit http://127.0.0.1:5000 in your browser to start searching!
-🌟 Deployment Guide
-
-    Render: Use the included requirements.txt and Procfile for easy deployment.
-    Heroku: Follow this guide.
-    Railway: Connect your repo to Railway for instant deployment.
 
 📖 Future Enhancements
 
-    Add autocomplete for the search bar.
-    Integrate a database for faster indexing and querying.
-    Implement advanced ranking algorithms for more accurate results.
-    Enhance the UI with more modern styles and animations.
+   - Add autocomplete for the search bar.
+   - Integrate a database for faster indexing and querying.
+   - Implement advanced ranking algorithms for more accurate results.
+   - Enhance the UI with more modern styles and animations.
+
+- Live Demo : https://simple-search-engine-tfidf.onrender.com/
 
 🤝 Contributions
 
